@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+body {
+    background-color: #6d3a3a;
+}
+
+header {
+    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
+    color: white;
+    padding: 1em;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mosquito {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px; 
+    width: 80%;
+}
+
+#fatec {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    margin-right: 50px; 
+    text-decoration: none;
+    font-family:  "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(169, 38, 15);
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: rgb(169, 38, 15);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: rgb(77, 23, 13);
+        font-family: "Lilita One", sans-serif;
+        font-weight: 400;
+        font-style: normal;  
+}
+
+.caixa-maior {
+    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab);
+    margin-left: 10px;
+    width: 95%;
+    max-width: 1580px;
+    height: 400px;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #f5e8e82b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+
+.dengue-input {
+    background-color: #6d3a3a;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #f3e9e92b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.lupa {
+    height: 20px;
+}
+
+iframe {
+    margin-top: 15px;
+    width: 60%;
+    margin-left: 18%;
+    height: 350px;
+}
+
+.informativo {
+    margin-top: 20px;
+    margin-left: 12px;
+    display: flex;
+}
+#informativo2 {
+    width: 45%; 
+    border-radius: 15px;
+    margin-left: 1%;
+}
+
+#informativo1 {
+    width: 43.5%; 
+    border-radius: 15px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 120px; 
+    flex-direction: column; 
+    margin-left: 20px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.links a {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    
+}
+
+.links a span {
+    background-color: rgb(169, 38, 15);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-family:  "Lilita One", sans-serif;
+}
+
+.links a span:hover {
+    background-color: white;
+    color: rgb(169, 38, 15)
+}
+
+footer {
+    background: linear-gradient(to bottom, #8f4b4b, #ca7575, #e27c7c, #f0abab); 
+    color: white;
+    padding: 0.8em;
+    margin-top: 20px;
+    height: 80px;
+}
+
+
+
+
+
